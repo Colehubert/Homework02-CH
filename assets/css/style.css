@@ -36,3 +36,14 @@ background-color: rgb(255, 255, 255);
     color:antiquewhite
 }
 
+
+@media screen and (max-width: 992px) {
+    .header {
+      width: 50%;
+  
+    }
+    header {
+        background: #2dc58b;
+    }
+    
+}
