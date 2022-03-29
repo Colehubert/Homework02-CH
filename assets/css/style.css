@@ -20,4 +20,19 @@ background-color: rgb(255, 255, 255);
     font-size: 22px;
 
 }
+.header div ul li{
+    display:inline-block;
+    margin-left: 24px;
+}
+
+
+
+.work-experience {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+    color:antiquewhite
+}
 
