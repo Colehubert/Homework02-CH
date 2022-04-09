@@ -1,52 +1,15 @@
-body {
-background-color: rgb(255, 255, 255);
-}
-    
-.header {
-    padding: 21px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: aqua;
-    color:aliceblue
-}
-.header h1 {
-    display: inline-block;
-    font-size: 46px;
-}
-.header div {
-    padding-top: 14px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+h1{
+color:navy;
+text-transform: uppercase;
+background-color: orange
 
 }
-.header div ul li{
-    display:inline-block;
-    margin-left: 24px;
-}
+a:hover {
+    color:darkorange;
+   
+  }
 
-header h2 {
-    display: inline-block;
-    font-size: 46px;
-}
-
-.work-experience {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: aqua;
-    color:antiquewhite
-}
-
-
-@media screen and (max-width: 992px) {
-    .header {
-      width: 50%;
-  
-    }
-    header {
-        background: #2dc58b;
-    }
-    
-}
+  h2{
+color: navy;
+background-color: orange;
+  }
