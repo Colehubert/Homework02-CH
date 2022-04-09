@@ -1,15 +1,76 @@
 h1{
-color:navy;
+color:aqua;
 text-transform: uppercase;
-background-color: orange
+background-color:black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 60px;
+text-align: center;
 
 }
 a:hover {
-    color:darkorange;
+    color:aqua;
    
   }
 
   h2{
-color: navy;
-background-color: orange;
+color:aqua;
+background-color:black;
+font-size: 30px;
+  }
+
+  h2, p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body{
+      background-color:lightblue
+  }
+
+  h1, .banner {
+background-image: url("https://images.pexels.com/photos/944636/pexels-photo-944636.jpeg?cs=srgb&dl=pexels-zoe-pappas-944636.jpg&fm=jpg");
+background-size:cover;
+background-position:top;
+height: 500px;
+
+  }
+ 
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+   
+  }
+  
+.main-header {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+    justify-content: flex-start;
+  }
+ 
+  
+  
+  .card {
+    flex:auto;
+    padding: 10px;
+    text-align:center;
+    border-style: solid;
+    border-width: 10px;
+    justify-content:center
+  }
+  
+.card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  
+  }
+  
+  a {
+      color: #fff;
+      justify-content: flex-start;
   }
